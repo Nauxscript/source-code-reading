@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+    "err": {
+      "name": "pnpm",
+      "message": "No package.json (or package.yaml, or package.json5) was found in \"/Users/naux/learning/source-code-reading\".",
+      "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+      "stack": "pnpm: No package.json (or package.yaml, or package.json5) was found in \"/Users/naux/learning/source-code-reading\".\n    at readProjectManifest (/Users/naux/.nvm/versions/node/v14.17.3/lib/node_modules/pnpm/dist/pnpm.cjs:19815:13)\n    at async Object.readProjectManifestOnly (/Users/naux/.nvm/versions/node/v14.17.3/lib/node_modules/pnpm/dist/pnpm.cjs:19819:28)\n    at async readProjectManifestOnly (/Users/naux/.nvm/versions/node/v14.17.3/lib/node_modules/pnpm/dist/pnpm.cjs:43733:24)\n    at async Object.handler (/Users/naux/.nvm/versions/node/v14.17.3/lib/node_modules/pnpm/dist/pnpm.cjs:177853:24)\n    at async /Users/naux/.nvm/versions/node/v14.17.3/lib/node_modules/pnpm/dist/pnpm.cjs:182129:21\n    at async run (/Users/naux/.nvm/versions/node/v14.17.3/lib/node_modules/pnpm/dist/pnpm.cjs:182103:34)\n    at async runPnpm (/Users/naux/.nvm/versions/node/v14.17.3/lib/node_modules/pnpm/dist/pnpm.cjs:182322:5)\n    at async /Users/naux/.nvm/versions/node/v14.17.3/lib/node_modules/pnpm/dist/pnpm.cjs:182314:7"
+    }
+  }
+}
